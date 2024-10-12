@@ -7,3 +7,6 @@ compatibility_flags = ["nodejs_compat"]
 
 [triggers]
 crons = ["*/5 * * * *"]  # Runs every 5 minutes
+
+[observability]
+enabled = true
